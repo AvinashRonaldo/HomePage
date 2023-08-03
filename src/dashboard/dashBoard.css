@@ -141,6 +141,12 @@
   align-items: center;
 }
 
+.insta{
+  display: flex;
+}
+.insta-img{
+  margin-right:20px;
+}
 .tracker-text {
   color: #fff;
   font-family: Roboto;

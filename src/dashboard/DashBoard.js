@@ -4,6 +4,7 @@ import { BsCart3 } from 'react-icons/bs';
 import { CgMenuGridO } from 'react-icons/cg';
 // import { BiUser, CiSearch, GoGoal, GoHome } from 'react-icons/fa';
 import { CiSearch } from 'react-icons/ci';
+import  {CgInstagram} from 'react-icons/cg';
 import { GoGoal, GoHome } from 'react-icons/go';
 import fire from '../assets/img/fire.svg';
 import galley from '../assets/img/gallery.svg';
@@ -115,7 +116,10 @@ export const DashBoard = () => {
       <Products products={skinproductInfo} />
       <Tiles products={skintalkProducts} />
       <div class="tracker">
+      <div class='insta'>
+        <CgInstagram class='insta-img'size={25} color={'Pink'} />
         <p class="tracker-text"> Join our 10K family on Instagram</p>
+        </div>
         <img
           src={VectorSVG}
           alt="rightArrow"
