@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { BiUser } from 'react-icons/bi';
 import { BsCart3 } from 'react-icons/bs';
 import { CgMenuGridO } from 'react-icons/cg';
@@ -24,6 +24,10 @@ import './dashBoard.css';
 import medTiles from '../data/medTiles';
 
 export const DashBoard = () => {
+  const [getProductInfo,setProductInfo] = useState([]);
+  useEffect(() => {
+    setProductInfo(productInfo);
+  });
   return (
     <div className="container">
       <div class="header">
@@ -110,7 +114,7 @@ export const DashBoard = () => {
       </div>
       <div></div>
       <MedTiles products ={medTiles} />
-      <Products products={productInfo} />
+      <Products products={getProductInfo} />
       <Products products={hairproductInfo} />
       <Tiles products={hairCareProducts} />
       <Products products={skinproductInfo} />
