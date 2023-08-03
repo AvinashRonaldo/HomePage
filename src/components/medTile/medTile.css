@@ -1,0 +1,15 @@
+.tile-card {
+    width: 380px;
+    height: 221px;
+    position: relative;
+  
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+    margin-right: 13px;
+  }
+.image-view {
+    width: 380px;
+    height: 221px;
+    border-radius: 16px;
+}

@@ -1,0 +1,30 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+li {
+  border-radius: 10px;
+  border: 1px solid #c5eefd;
+  text-align: 'center';
+  display: block;
+  margin-right: 20px;
+  align-self: center;
+}
+.menu-image {
+  width: '100%';
+  height: 50px;
+  margin-right: 20px;
+  object-fit: contain;
+  justify-content: space-between;
+}
+li.caption {
+  display: block;
+}
+
+@media screen and (min-width: 20em) {
+  li {
+    width: 33.33333%;
+  }
+}
