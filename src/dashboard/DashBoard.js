@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react';
 import { BiUser } from 'react-icons/bi';
 import { BsCart3 } from 'react-icons/bs';
 import { CgMenuGridO } from 'react-icons/cg';
-// import { BiUser, CiSearch, GoGoal, GoHome } from 'react-icons/fa';
 import { CiSearch } from 'react-icons/ci';
 import  {CgInstagram} from 'react-icons/cg';
 import { GoGoal, GoHome } from 'react-icons/go';

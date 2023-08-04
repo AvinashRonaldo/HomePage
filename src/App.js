@@ -9,7 +9,6 @@ import DashBoard from './dashboard/DashBoard';
 
 function App() {
   return <DashBoard />;
-  // return <p>Hello</p>;
 }
 
 export default App;
