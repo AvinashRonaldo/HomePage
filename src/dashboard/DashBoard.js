@@ -25,8 +25,9 @@ import medTiles from '../data/medTiles';
 export const DashBoard = () => {
   const [getProductInfo,setProductInfo] = useState([]);
   useEffect(() => {
+   
     setProductInfo(productInfo);
-  });
+  },[]);
   return (
     <div className="container">
       <div class="header">

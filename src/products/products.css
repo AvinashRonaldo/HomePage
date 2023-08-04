@@ -1,3 +1,8 @@
 .products-view {
   display: flex;
+  overflow: auto;
+}
+
+::-webkit-scrollbar-track{
+  width: 20px;
 }

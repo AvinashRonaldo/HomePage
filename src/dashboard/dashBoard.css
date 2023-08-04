@@ -1,3 +1,7 @@
+.container {
+  height: 100%;
+  overflow:hidden;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -169,8 +173,8 @@
   box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   padding: 12px 0 12px 0;
+  position: -webkit-sticky; 
   position: sticky;
-  position: -webkit-sticky;
 }
 
 .footer-label {
